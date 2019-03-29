@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>IS445 Midterm Exam</title>
+</head>
+
+<body>
+    <div id="top">
+        <h1>IS445 Midterm Exam</h1>
+        <p></p>Find all prime numbers between two numbers</p>
+    </div>
+
+    <form id="myForm">
+        <div id="left">
+            <label for="number1">Number 1:</label>
+            <input id="num1" type="number" name="number1" value=""><br/>
+        </div>
+
+        <div id="right">
+            <label for="number2">Number 2:</label>
+            <input id="num2" type="number" name="number2" value="">
+        </div>
+
+        <input type="button" value="Submit" onclick="checkValue()">
+        <p id="error"></p>
+        <p id="result-count"></p>
+        <p id="result"></p>
+    </form>
+</body>
+
+</html>
