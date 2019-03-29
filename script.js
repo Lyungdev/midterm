@@ -40,5 +40,4 @@ function findPrime(num1, num2) {
 
     document.getElementById("result-count").innerHTML = "There are " + allPrimes.length + " prime numbers.";
     document.getElementById("result").innerHTML = allPrimes;
-    console.log(allPrimes);
 }
